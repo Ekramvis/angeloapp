@@ -11,3 +11,79 @@
  *= require_self
  *= require_tree .
  */
+
+
+/* RESET */
+html, body, header, footer, 
+section, div, strong, a, img, 
+p, h1, h2, h3, time, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* CLEARFIX */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* GENERAL */
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: bold;
+}
+
+img {
+  display: block;
+}
+
+/* HEADER */
+header {
+  background: #378530;
+  color: #fff;
+  font-family: "Century Gothic";
+}
+
+.header-container {
+  width: 1200px;
+  margin: auto;
+}
+
+.header-container h1 {
+  float: left;
+}
+
+.header-actions {
+  float: right;
+}
+
+.header-actions ul li {
+  float: left;
+}
+
+/* BODY */
+body {
+  background: #F2E7B3;
+  font-family: sans-serif;
+  font-size: 16px;
+}
